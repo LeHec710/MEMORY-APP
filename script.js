@@ -7,7 +7,7 @@ let cardsFound = 0;
 let canPlay = true;
 let selected = [];
 let attempts = 0;
-let maxAttempts = 5;
+let maxAttempts = 15;
 
 play();
 function play() {
