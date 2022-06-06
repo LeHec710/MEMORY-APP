@@ -7,7 +7,7 @@ let cardsFound = 0;
 let canPlay = true;
 let selected = [];
 let attempts = 0;
-let maxAttempts = 15;
+let maxAttempts = 5;
 
 play();
 function play() {
@@ -85,14 +85,14 @@ function areMatched() {
 function congratulations() {
     // congratulation popup/message
     canPlay = false;
-    alert("congratulation");
+    alert("Bravo ! Vous avez gagner");
     document.location.reload();
 }
 
 function lose() {
     // lose popup/message
     canPlay = false;
-    alert("You lose");
+    alert("OH MIINCE ! Vous avez perdu");
     document.location.reload();
 }
 
